@@ -1,4 +1,4 @@
-import React from 'raect' 6.9k (gzipped:
+import React from 'react' 6.9k (gzipped:
 import './login.css'
 
 import user_icon from '/assets/user.png'

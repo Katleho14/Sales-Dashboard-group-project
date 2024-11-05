@@ -58,9 +58,29 @@
     font-size: 19px;
 }
 
-.forget-password{
+.forgot-password{
     padding-left: 62px;
     margin-top: 27px;
     color: #797979;
     font-size: 18px;
+}
+
+.forgot-password span{
+    color: blueviolet;
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: blue;
+    
 }
