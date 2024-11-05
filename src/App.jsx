@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-
+import Header from "../components/common/Header";
 import Sidebar from "./components/common/Sidebar";
 import Logo from "./components/Logo"
 import OverviewPage from "./pages/OverviewPage";
@@ -21,6 +21,7 @@ function App() {
 
 			<Sidebar />
 			<Logo /> 
+			<Header />
 			<Routes>
 				<Route path='/' element={<OverviewPage />} />
 				<Route path='/products' element={<ProductsPage />} />
