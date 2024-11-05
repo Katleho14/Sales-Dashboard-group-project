@@ -5,7 +5,7 @@ import user_icon from '../assets/user.png';
 import email_icon from '../assets/email.png';
 import password_icon from '../assets/padlock.png';
 
-const Login = () => {
+const LoginPage = () => {
     const [action, setAction] = useState("Sign Up");
     const [formData, setFormData] = useState({
         name: '',
@@ -79,4 +79,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default LoginPage;
