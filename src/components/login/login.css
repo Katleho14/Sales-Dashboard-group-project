@@ -82,5 +82,8 @@
     height: 59px;
     color: #fff;
     background: blue;
-    
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
 }
