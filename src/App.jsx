@@ -19,7 +19,7 @@ function App() {
 				<div className='absolute inset-0 backdrop-blur-sm' />
 			</div>
 
-			<Sidebar />
+			<Sideba />
 			<Routes>
 				<Route path='/' element={<OverviewPage />} />
 				<Route path='/products' element={<ProductsPage />} />
